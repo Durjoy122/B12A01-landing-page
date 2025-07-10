@@ -59,7 +59,7 @@ nav li a:hover {
     color: #4E47FF;
 }
 
-.btn-primary,.btn-primary-one {
+.btn-primary{
     background-color: #4E47FF;
     color: white;
     font-weight: bold;
@@ -68,7 +68,19 @@ nav li a:hover {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    margin-right: 15px;
+}
+
+.btn-primary-one {
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 45px;
 }
 
 .banner {
@@ -331,35 +343,35 @@ textarea.form-input {
 
 /*footer*/
 
-footer{
-    margin-top: 100px;
+footer {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
 }
 
-.logo , .l-text{
-     text-align: center;
+.logo {
+    margin-bottom: 20px;
+    color: #4E47FF;
+    font-size: 48px;
+    font-weight: 800;
 }
 
-.logo{
-   margin-bottom: 20px;
-   color: #4E47FF;
-   font-size: 70px;
-   font-weight: 800;
-}
-
-.l-text{
-   margin-bottom: 20px;
-   color: rgb(122, 119, 119);
-}
-
-.final{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    margin-left: 850px;
-    margin-bottom : 250px;
+.l-text {
+    margin-bottom: 40px;
     color: rgb(122, 119, 119);
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.l-text{
-    line-height: 1.8;
+.final {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    color: rgb(122, 119, 119);
+    font-weight: 500;
+    font-size: 16px;
 }
