@@ -248,6 +248,13 @@ nav li a:hover {
     text-align: center;
 }
 
+/* Hover */
+
+.btn-primary:hover {
+   background-color: yellow; 
+   color:#1f1f1f;
+}
+
 /*focus*/
 
 .focus{
@@ -307,24 +314,24 @@ nav li a:hover {
 }
 
 .form-input {
-  height: 64px;
-  border-radius: 5px;
-  background-color: white;
-  display: block;
-  width: 70%;
-  padding: 10px 20px;
-  margin-bottom: 24px;
-  border: none;
-  font-size: 16px;
-  box-sizing: border-box;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    height: 64px;
+    background-color: white;
+    border-radius: 20px;
+    display: block;
+    width: 70%;
+    padding: 10px 10px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
 
 textarea.form-input {
-  height: auto;
-  resize: vertical; 
-  min-height: 120px;
+    height: auto;
+    resize: vertical; 
+    min-height: 120px;
 }
 
 .btn-primary-seven{
@@ -375,3 +382,20 @@ footer {
     font-weight: 500;
     font-size: 16px;
 }
+
+.pic-x {
+    width: 120px;     
+    height: auto;     
+    margin-bottom: 20px;
+    border-radius: 12px;      
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+
+.icon-y {
+    width: 120px;    
+    height: auto;    
+    border-radius: 8px;  
+    object-fit: contain; 
+}
+
