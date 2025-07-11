@@ -82,6 +82,11 @@ nav li a:hover {
     margin-right: 45px;
 }
 
+.btn-primary-one:hover{
+    background-color: yellow; 
+    color:#1f1f1f;
+}
+
 .banner {
     max-width: 1200px;
     margin: 80px auto 0;
@@ -136,6 +141,11 @@ nav li a:hover {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.btn-primary-two:hover{
+    background-color: yellow; 
+    color:#1f1f1f;
 }
 
 .user{
@@ -248,6 +258,11 @@ nav li a:hover {
     text-align: center;
 }
 
+.btn-primary-five:hover{
+    background-color: yellow; 
+    color:#1f1f1f;
+}
+
 /* Hover */
 
 .btn-primary:hover {
@@ -346,6 +361,11 @@ textarea.form-input {
     margin-top: 10px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+.btn-primary-seven:hover{
+    background-color: yellow; 
+    color:#1f1f1f;
 }
 
 /*footer*/
